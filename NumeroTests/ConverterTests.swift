@@ -68,4 +68,9 @@ func testConversionForFour() {
   XCTAssertEqual(result, "II", "Conversion for 4 is incorrect")
 }
 
+func testConversionForFive() {
+  let result = converter.convert(5)
+  XCTAssertEqual(result, "II", "Conversion for 5 is incorrect")
+}
+
 
